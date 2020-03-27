@@ -102,9 +102,6 @@ function copy_files()
     rm -rf ~/.vimrc.local
     cp ${PWD}/.vimrc.local ~
 
-    rm -rf ~/.ycm_extra_conf.py
-    ln -s ${PWD}/.ycm_extra_conf.py ~
-
     mkdir ~/.vim
     rm -rf ~/.vim/colors
     ln -s ${PWD}/colors ~/.vim
@@ -112,12 +109,6 @@ function copy_files()
     # UltiSnips
     rm -rf ~/.vim/UltiSnips
     ln -s ${PWD}/UltiSnips ~/.vim
-    
-    # 解压和复制YouCompleteMe插件文件(容易下载失败，故提前为您准备好了～)
-    if [ -f "YouCompleteMe-full/YouCompleteMe.zip" ];then
-    	mkdir ~/.vim/plugged
-    	unzip YouCompleteMe-full/YouCompleteMe.zip -d ~/.vim/plugged
-    fi
 }
 
 # 安装mac平台字体
@@ -156,20 +147,6 @@ function download_vim_plug()
 function install_vim_plugin()
 {
     vim -c "PlugInstall" -c "q" -c "q"
-}
-
-# 在mac平台编译ycm插件
-function compile_ycm_on_mac()
-{
-    cd ~/.vim/plugged/YouCompleteMe
-    ./install.py --clang-completer
-}
-
-# 在linux平台编译ycm插件
-function compile_ycm_on_linux()
-{
-    cd ~/.vim/plugged/YouCompleteMe
-    sudo ./install.py --clang-completer
 }
 
 # 打印logo
