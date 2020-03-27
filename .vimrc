@@ -7,7 +7,7 @@
 "                    /_/
 "            
 "
-" Author: frankliu <frankliu624@gmail.com>
+" Author: frankliu <frankliu624@outlook.com>
 " Repository: https://github.com/FLHonker/vim-plus-plus
 " Create Date: 2017-06-24
 " License: MIT
@@ -215,39 +215,6 @@ let g:NERDTreeHighlightFolders = 1
 let g:NERDTreeHighlightFoldersFullName = 1 
 let g:NERDTreeDirArrowExpandable='▷'
 let g:NERDTreeDirArrowCollapsible='▼'
-
-" YCM
-" make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
-let g:ycm_confirm_extra_conf = 0 
-let g:ycm_error_symbol = '>>'
-let g:ycm_warning_symbol = '>*'
-let g:ycm_seed_identifiers_with_syntax = 1 
-let g:ycm_complete_in_comments = 1 
-let g:ycm_complete_in_strings = 1 
-let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
-let g:ycm_collect_identifiers_from_tags_files = 1
-let g:ycm_semantic_triggers =  {
-  \   'c' : ['->', '.','re![_a-zA-z0-9]'],
-  \   'objc' : ['->', '.', 're!\[[_a-zA-Z]+\w*\s', 're!^\s*[^\W\d]\w*\s',
-  \             're!\[.*\]\s'],
-  \   'ocaml' : ['.', '#'],
-  \   'cpp,objcpp' : ['->', '.', '::','re![_a-zA-Z0-9]'],
-  \   'perl' : ['->'],
-  \   'php' : ['->', '::'],
-  \   'cs,java,javascript,typescript,d,python,perl6,scala,vb,elixir,go' : ['.'],
-  \   'ruby' : ['.', '::'],
-  \   'lua' : ['.', ':'],
-  \   'erlang' : [':'],
-  \ }
-let g:ycm_semantic_triggers.c = ['->', '.', ' ', '(', '[', '&',']']
-nnoremap <leader>u :YcmCompleter GoToDeclaration<cr>
-nnoremap <leader>i :YcmCompleter GoToDefinition<cr>
-nnoremap <leader>o :YcmCompleter GoToInclude<cr>
-nnoremap <leader>ff :YcmCompleter FixIt<cr>
-nmap <F5> :YcmDiags<cr>
 
 " ctags
 set tags+=/usr/include/tags
