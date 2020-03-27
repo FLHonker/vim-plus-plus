@@ -292,7 +292,7 @@ Q & A
   [56]: https://github.com/Yggdroot/LeaderF
   [57]: https://github.com/Shougo/echodoc.vim
   [58]: https://github.com/chxuan/cppfun
-  [59]: https://github.com/chxuan/vimplus/blob/master/help.md
+  [59]: https://github.com/FLHonker/vim-plus-plus/blob/master/help.md
   [60]: https://github.com/terryma/vim-smooth-scroll
   [61]: https://github.com/terryma/vim-expand-region
   [62]: https://github.com/mileszs/ack.vim
