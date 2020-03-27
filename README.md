@@ -80,7 +80,7 @@ Frank Liu的至尊无敌,py,go,c,c++,opencv,java,md终极配置vim-plus-plus
 | [cppfun][58]                        | 生成函数实现(I'm author:smile:)                                      |
 | [change-colorscheme][27]            | 随心所欲切换主题(I'm author:smile:)                                  |
 | [vim-plug][4]                       | 比[Vundle][54]下载更快的插件管理软件                                 |
-| [YouCompleteMe][5]                  | 史上最强大的基于语义的自动补全插件，支持C/C++、C#、Python、PHP等语言 |
+| ~~[YouCompleteMe][5]~~--            | ~~史上最强大的基于语义的自动补全插件，支持C/C++、C#、Python、PHP等语言(被Tabline取代) ~~|
 | [NerdTree][6]                       | 代码资源管理器                                                       |
 | [vim-nerdtree-syntax-highlight][52] | NerdTree文件类型高亮                                                 |
 | [nerdtree-git-plugin][53]           | NerdTree显示git状态                                                  |
@@ -189,7 +189,7 @@ Q & A
 
 - **`以上没有我遇到的问题怎么办？`**
 
-    您可以通过上网找解决方法，或提[Issues][39]，也可以通过发邮件方式`787280310@qq.com`一起讨论解决方法。
+    您可以通过上网找解决方法，或提[Issues][39]，也可以通过发邮件方式`frankliu624@outlook.com`一起讨论解决方法。
 
 - **`vimplusplus用起来真的太棒了，怎么办？`**
 
@@ -273,7 +273,7 @@ Q & A
   [36]: https://github.com/tpope/vim-fugitive
   [37]: https://pan.baidu.com/s/1i481Eeh
   [38]: https://github.com/Valloric/YouCompleteMe
-  [39]: https://github.com/chxuan/vimplus/issues
+  [39]: https://github.com/FLHonker/vim-plus-plus/issues
   [40]: https://camo.githubusercontent.com/1f3f922431d5363224b20e99467ff28b04e810e2/687474703a2f2f692e696d6775722e636f6d2f304f50346f6f642e676966
   [41]: https://github.com/Yggdroot/Images/blob/master/leaderf/leaderf_1.gif
   [42]: https://camo.githubusercontent.com/ba79534309330accd776a8d2a0712f7c4037d7f9/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3330363530322f313037323632332f34346332393261302d313439352d313165332d396365362d6463616461336631633533362e676966
