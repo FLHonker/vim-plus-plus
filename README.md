@@ -80,7 +80,7 @@ Frank Liu的至尊无敌,py,go,c,c++,opencv,java,md终极配置vim-plus-plus
 | [cppfun][58]                        | 生成函数实现(I'm author:smile:)                                      |
 | [change-colorscheme][27]            | 随心所欲切换主题(I'm author:smile:)                                  |
 | [vim-plug][4]                       | 比[Vundle][54]下载更快的插件管理软件                                 |
-| ~~[YouCompleteMe][5]~~--            | ~~史上最强大的基于语义的自动补全插件，支持C/C++、C#、Python、PHP等语言(被Tabline取代) ~~|
+| ~~[YouCompleteMe][5]~~              | ~~史上最强大的基于语义的自动补全插件，支持C/C++、C#、Python、PHP等语言(被Tabline取代) ~~|
 | [NerdTree][6]                       | 代码资源管理器                                                       |
 | [vim-nerdtree-syntax-highlight][52] | NerdTree文件类型高亮                                                 |
 | [nerdtree-git-plugin][53]           | NerdTree显示git状态                                                  |
