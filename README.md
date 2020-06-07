@@ -23,8 +23,8 @@ Frank Liu的至尊无敌,py,go,c,c++,opencv,java,md终极配置vim-plus-plus
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/FLHonker/vim-plus-plus.git ~/.vimplus
-    cd ~/.vimplus
+    git clone https://github.com/FLHonker/vim-plus-plus.git
+    cd vim-plus-plus
     ./install.sh
     ```
 
@@ -37,8 +37,8 @@ Frank Liu的至尊无敌,py,go,c,c++,opencv,java,md终极配置vim-plus-plus
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/FLHonker/vim-plus-plus.git ~/.vimplus
-    cd ~/.vimplus
+    git clone https://github.com/FLHonker/vim-plus-plus.git
+    cd vim-plus-plus
     sudo ./install.sh
     ```
 
@@ -51,8 +51,8 @@ Frank Liu的至尊无敌,py,go,c,c++,opencv,java,md终极配置vim-plus-plus
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/FLHonker/vim-plus-plus.git ~/.vimplus
-    cd ~/.vimplus
+    git clone https://github.com/FLHonker/vim-plus-plus.git
+    cd vim-plus-plus
     sudo ./install.sh
     ```
 
@@ -61,8 +61,8 @@ Frank Liu的至尊无敌,py,go,c,c++,opencv,java,md终极配置vim-plus-plus
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/FLHonker/vim-plus-plus.git ~/.vimplus
-    cd ~/.vimplus
+    git clone https://github.com/FLHonker/vim-plus-plus.git
+    cd vim-plus-plus
     sudo ./install.sh
     ```
 
@@ -181,7 +181,7 @@ Q & A
 
 - **`安装vimplusplus完成后ycm不能够工作！！！`**
 
-    这里的原因可能就有很多了，可能每个人遇到的问题不一样，但`vimplusplus`尽最大努力不让用户操心，需要注意的是ycm插件只支持`64`位的系统，更多信息请访问[ycm官网][38]。
+    这里的原因可能就有很多了，可能每个人遇到的问题不一样，但`vimplusplus`尽最大努力不让用户操心，需要注意的是ycm插件只支持`64`位的系统，更多信息请访问[ycm官网][38]。现在ycm已经被tabline智能工具取代。
 
 - **`在Archlinux环境下不能使用ycm怎么办？(缺少libtinfo.so.5)`**
 
