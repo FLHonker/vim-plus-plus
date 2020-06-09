@@ -41,9 +41,7 @@ function compile_vim()
     sudo apt-get remove -y vim-tiny vim-common vim-gui-common vim-nox
 
     sudo rm -rf ~/vim
-    sudo rm -rf /usr/share/vim/vim74
-    sudo rm -rf /usr/share/vim/vim80
-    sudo rm -rf /usr/share/vim/vim81
+    sudo rm -rf /usr/share/vim/vim*
     git clone https://github.com/vim/vim.git ~/vim
     cd ~/vim
     ./configure --with-features=huge \
@@ -164,7 +162,7 @@ function print_logo()
     echo ''
     echo ''
     echo 'Just enjoy it!'
-    echo 'p.s. Follow me at https://github.com/chxuan.'
+    echo 'p.s. Follow me at https://github.com/FLHonker.'
     echo ''
     printf "${normal}"
 }
