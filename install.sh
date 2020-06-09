@@ -52,7 +52,7 @@ function compile_vim()
         --enable-perlinterp \
         --enable-luainterp \
         --enable-gui=gtk2 --enable-cscope --prefix=/usr
-    make VIMRUNTIMEDIR=/usr/share/vim/vim82
+    make VIMRUNTIMEDIR=/usr/share/vim/vim81
     sudo make install
     cd -
 }
