@@ -36,7 +36,7 @@ function compile_vim()
 {
     sudo apt-get install -y libncurses5-dev libgnome2-dev libgnomeui-dev \
         libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
-        libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev python3-dev ruby-dev lua5.1 lua5.1-dev
+        libcairo2-dev libx11-dev libxpm-dev libxt-dev python3-dev ruby-dev lua5.1 lua5.1-dev
     sudo apt-get remove -y vim vim-runtime gvim
     sudo apt-get remove -y vim-tiny vim-common vim-gui-common vim-nox
 
@@ -48,11 +48,11 @@ function compile_vim()
         --enable-multibyte \
         --enable-rubyinterp \
         --enable-pythoninterp \
-        --with-python-config-dir=/usr/lib/python2.7/config \
+        --with-python-config-dir=/usr/lib/python3/config \
         --enable-perlinterp \
         --enable-luainterp \
         --enable-gui=gtk2 --enable-cscope --prefix=/usr
-    make VIMRUNTIMEDIR=/usr/share/vim/vim81
+    make VIMRUNTIMEDIR=/usr/share/vim/vim82
     sudo make install
     cd -
 }
@@ -204,7 +204,7 @@ function begin_install_vimplus()
     install_fonts_on_linux
     download_vim_plug
     install_vim_plugin
-    compile_ycm_on_linux
+    #compile_ycm_on_linux
     chown_dir
     print_logo
 }
