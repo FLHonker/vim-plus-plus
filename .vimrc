@@ -260,7 +260,7 @@ let g:pydiction_location='~/.vim/plugged/pydiction/complete-dict'
 let g:pydiction_menu_height=10
 
 " nerdtree-git-plugin
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
     \ "Untracked" : "✭",
