@@ -2,7 +2,7 @@
 
 An automatic configuration program for vim
 ===============================================
-Frank Liu的至尊无敌,py,go,c,c++,opencv,java,md终极配置vim-plus-plus
+Frank Liu的至尊py,go,c,c++,opencv,java,md,tex终极配置vim-plus-plus
 
 ![][2]
 
